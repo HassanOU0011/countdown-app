@@ -1,0 +1,20 @@
+:root {
+    /* Battery Report */
+        --battery-report-heading-color: #11eef4;
+    /* Breadcrumbs */
+        --breadcrumbs-grey-divider: #cccccc;
+        --breadcrumbs-grey-dividend: #999999;
+        --breadcrumbs-green-last-dividend: #009578;
+        --breadcrumbs-last-dividend-weight: 500;
+        --breadcrumbs-arrow: '\203a';
+    /* Form */
+        --error-color: #D8000C;
+        --error-background-color: #FFBABA;
+        --warning-color: #9F6000;
+        --warning-background-color: #FEEFB3;
+    /* Table */
+        --outside-table-border-color: rgb(140 140 140);
+        --inside-table-border-color: rgb(160 160 160);
+    /* End of study Internship Project */
+        --eosi-background-color: #051937;
+}

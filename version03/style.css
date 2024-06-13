@@ -1,0 +1,63 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+#container {
+    width: 30%;
+    height: 35%;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#container #title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#container #countdown-time {
+    flex-grow: 1;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    .time-field {
+        font-variant-numeric: tabular-nums;
+    }
+}
+
+.countdown-time-control {
+    display: flex;
+    flex-direction: column;
+    & .button {
+        font-size: 1rem;
+        background-color: #ffffff;
+        border: 0;
+        cursor: pointer;
+    }
+}
+
+#container #control-process-buttons {
+    display: flex;
+    gap: 5px;
+    & #start-button {
+        flex-grow: 1;
+    }
+    & #stop-button {
+        flex-grow: 1;
+    }
+    & #reset-button {
+        flex-grow: 1;
+    }
+}
+
+#container .button {
+    cursor: pointer;
+}
